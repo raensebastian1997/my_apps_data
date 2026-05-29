@@ -289,7 +289,38 @@
           "aksesoris",
           "kulit"
         ]
+      },
+
+     {
+        id: "PRD-007",
+        name: "Jaket Parasut Waterproof",
+        slug: "jaket-parasut-waterproof",
+        category_id: 1,
+        category_name: "Pakaian",
+        description: "Jaket parasut dengan tahan air, cocok untuk olahraga dan bermain.",
+        price: 120000,
+        discount_percent: 25,
+        final_price: 90000,
+        stock: 50,
+        sold: 200,
+        rating: 4.7,
+        review_count: 80,
+        condition: "Baru",
+        is_featured: true,
+        is_available: true,
+        images: [
+          "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=800",
+          "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800",
+        ],
+        variants: [
+          {
+            name: "Color",
+            options: ["Black", "White"],
+          },
+        ],
+        tags: ["jaket", "parasut", "waterproof"],
       }
+
     ],
     "pagination": {
       "current_page": 1,
