@@ -290,8 +290,7 @@
           "kulit"
         ]
       },
-
-     {
+      {
         "id": "PRD-007",
         "name": "Jaket Parasut Waterproof",
         "slug": "jaket-parasut-waterproof",
@@ -315,42 +314,55 @@
         "variants": [
           {
             "name": "Color",
-            "options": ["Black", "White"]
+            "options": [
+              "Black",
+              "White"
+            ]
           }
         ],
-        "tags": ["jaket", "parasut", "waterproof"]
+        "tags": [
+          "jaket",
+          "parasut",
+          "waterproof"
+        ]
       },
-
-       {
-  "id": "PRD-007",
-  "name": "Rendang Minang Asli",
-  "slug": "rendang-minang-asli",
-  "category_id": 3,
-  "category_name": "Makanan & Kuliner",
-  "description": "Rendang Minang asli dengan bumbu rempah pilihan, dimasak tradisional. Sangat cocok untuk hidangan keluarga maupun oleh-oleh.",
-  "price": 120000,
-  "discount_percent": 25,
-  "final_price": 90000,
-  "stock": 50,
-  "sold": 200,
-  "rating": 4.7,
-  "review_count": 80,
-  "condition": "Baru",
-  "is_featured": true,
-  "is_available": true,
-  "images": [
-    "https://images.unsplash.com/photo-1766567461692-32c352d198d4?w=800",
-    "https://media.istockphoto.com/id/1145112130/id/foto/ayam-dengan-soysauce-dan-cabai.jpg?s=2048x2048&w=is&k=20&c=wLZzVzCV2PvwnZIHLZIGfCDGwMS_mpG0U5bRUCqCIqY=?w=800",
-   ],
-  "variants": [
-    {
-      "name": "Jenis",
-      "options": ["Kering", "Basah/Kalio"]
-    }
-  ],
-  "tags": ["rendang", "kuliner-minang", "makanan-tradisional", "rendang-sapi"]
-}
-
+      {
+        "id": "PRD-007",
+        "name": "Rendang Minang Asli",
+        "slug": "rendang-minang-asli",
+        "category_id": 3,
+        "category_name": "Makanan & Kuliner",
+        "description": "Rendang Minang asli dengan bumbu rempah pilihan, dimasak tradisional. Sangat cocok untuk hidangan keluarga maupun oleh-oleh.",
+        "price": 120000,
+        "discount_percent": 25,
+        "final_price": 90000,
+        "stock": 50,
+        "sold": 200,
+        "rating": 4.7,
+        "review_count": 80,
+        "condition": "Baru",
+        "is_featured": true,
+        "is_available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1766567461692-32c352d198d4?w=800",
+          "https://media.istockphoto.com/id/1145112130/id/foto/ayam-dengan-soysauce-dan-cabai.jpg?s=2048x2048&w=is&k=20&c=wLZzVzCV2PvwnZIHLZIGfCDGwMS_mpG0U5bRUCqCIqY=?w=800"
+        ],
+        "variants": [
+          {
+            "name": "Jenis",
+            "options": [
+              "Kering",
+              "Basah/Kalio"
+            ]
+          }
+        ],
+        "tags": [
+          "rendang",
+          "kuliner-minang",
+          "makanan-tradisional",
+          "rendang-sapi"
+        ]
+      }
     ],
     "pagination": {
       "current_page": 1,
