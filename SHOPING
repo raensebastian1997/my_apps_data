@@ -1,0 +1,335 @@
+{
+  "status": true,
+  "code": 200,
+  "message": "Data produk berhasil diambil",
+  "timestamp": "2026-05-29T13:48:20.446101+00:00",
+  "data": {
+    "store": {
+      "id": "STORE-001",
+      "name": "Toko Isma Jaya",
+      "description": "Toko online terpercaya untuk kebutuhan fashion, elektronik, makanan, dan aksesoris.",
+      "logo": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600",
+      "banner": "https://images.unsplash.com/photo-1607082349566-187342175e2f?w=1200",
+      "currency": "IDR",
+      "location": {
+        "city": "Jakarta",
+        "province": "DKI Jakarta",
+        "country": "Indonesia"
+      },
+      "contact": {
+        "whatsapp": "+6281234567890",
+        "email": "support@tokoismajaya.com",
+        "website": "https://ismarianto.web.app"
+      }
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Fashion",
+        "slug": "fashion",
+        "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=800"
+      },
+      {
+        "id": 2,
+        "name": "Elektronik",
+        "slug": "elektronik",
+        "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=800"
+      },
+      {
+        "id": 3,
+        "name": "Makanan",
+        "slug": "makanan",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800"
+      },
+      {
+        "id": 4,
+        "name": "Aksesoris",
+        "slug": "aksesoris",
+        "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800"
+      }
+    ],
+    "products": [
+      {
+        "id": "PRD-001",
+        "name": "Kaos Polos Premium Cotton",
+        "slug": "kaos-polos-premium-cotton",
+        "category_id": 1,
+        "category_name": "Fashion",
+        "description": "Kaos polos bahan cotton combed 30s, adem, nyaman dipakai harian.",
+        "price": 85000,
+        "discount_percent": 15,
+        "final_price": 72250,
+        "stock": 120,
+        "sold": 340,
+        "rating": 4.8,
+        "review_count": 96,
+        "condition": "Baru",
+        "is_featured": true,
+        "is_available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800",
+          "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800"
+        ],
+        "variants": [
+          {
+            "name": "Size",
+            "options": [
+              "S",
+              "M",
+              "L",
+              "XL"
+            ]
+          },
+          {
+            "name": "Color",
+            "options": [
+              "Hitam",
+              "Putih",
+              "Navy"
+            ]
+          }
+        ],
+        "tags": [
+          "kaos",
+          "fashion",
+          "cotton",
+          "premium"
+        ]
+      },
+      {
+        "id": "PRD-002",
+        "name": "Sepatu Sneakers Casual",
+        "slug": "sepatu-sneakers-casual",
+        "category_id": 1,
+        "category_name": "Fashion",
+        "description": "Sneakers casual ringan dan stylish untuk aktivitas sehari-hari.",
+        "price": 250000,
+        "discount_percent": 20,
+        "final_price": 200000,
+        "stock": 45,
+        "sold": 210,
+        "rating": 4.7,
+        "review_count": 78,
+        "condition": "Baru",
+        "is_featured": true,
+        "is_available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800",
+          "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800"
+        ],
+        "variants": [
+          {
+            "name": "Size",
+            "options": [
+              "39",
+              "40",
+              "41",
+              "42",
+              "43"
+            ]
+          },
+          {
+            "name": "Color",
+            "options": [
+              "Black",
+              "White",
+              "Gray"
+            ]
+          }
+        ],
+        "tags": [
+          "sepatu",
+          "sneakers",
+          "casual"
+        ]
+      },
+      {
+        "id": "PRD-003",
+        "name": "Smartwatch Sport Waterproof",
+        "slug": "smartwatch-sport-waterproof",
+        "category_id": 2,
+        "category_name": "Elektronik",
+        "description": "Smartwatch dengan fitur heart rate, step counter, notifikasi, dan tahan air.",
+        "price": 399000,
+        "discount_percent": 10,
+        "final_price": 359100,
+        "stock": 60,
+        "sold": 180,
+        "rating": 4.6,
+        "review_count": 65,
+        "condition": "Baru",
+        "is_featured": true,
+        "is_available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800",
+          "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800"
+        ],
+        "variants": [
+          {
+            "name": "Color",
+            "options": [
+              "Black",
+              "Silver",
+              "Rose Gold"
+            ]
+          }
+        ],
+        "tags": [
+          "smartwatch",
+          "gadget",
+          "elektronik"
+        ]
+      },
+      {
+        "id": "PRD-004",
+        "name": "Headset Bluetooth Noise Cancelling",
+        "slug": "headset-bluetooth-noise-cancelling",
+        "category_id": 2,
+        "category_name": "Elektronik",
+        "description": "Headset bluetooth dengan suara jernih, bass kuat, dan fitur noise cancelling.",
+        "price": 320000,
+        "discount_percent": 12,
+        "final_price": 281600,
+        "stock": 35,
+        "sold": 150,
+        "rating": 4.5,
+        "review_count": 55,
+        "condition": "Baru",
+        "is_featured": false,
+        "is_available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+          "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800"
+        ],
+        "variants": [
+          {
+            "name": "Color",
+            "options": [
+              "Black",
+              "White"
+            ]
+          }
+        ],
+        "tags": [
+          "headset",
+          "bluetooth",
+          "audio"
+        ]
+      },
+      {
+        "id": "PRD-005",
+        "name": "Kopi Arabica Premium 250gr",
+        "slug": "kopi-arabica-premium-250gr",
+        "category_id": 3,
+        "category_name": "Makanan",
+        "description": "Kopi arabica pilihan dengan aroma kuat dan rasa smooth.",
+        "price": 75000,
+        "discount_percent": 5,
+        "final_price": 71250,
+        "stock": 90,
+        "sold": 420,
+        "rating": 4.9,
+        "review_count": 130,
+        "condition": "Baru",
+        "is_featured": true,
+        "is_available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=800",
+          "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800"
+        ],
+        "variants": [
+          {
+            "name": "Grind Size",
+            "options": [
+              "Beans",
+              "Fine",
+              "Medium",
+              "Coarse"
+            ]
+          }
+        ],
+        "tags": [
+          "kopi",
+          "arabica",
+          "premium"
+        ]
+      },
+      {
+        "id": "PRD-006",
+        "name": "Tas Selempang Kulit Pria",
+        "slug": "tas-selempang-kulit-pria",
+        "category_id": 4,
+        "category_name": "Aksesoris",
+        "description": "Tas selempang bahan kulit sintetis premium, cocok untuk kerja dan santai.",
+        "price": 185000,
+        "discount_percent": 18,
+        "final_price": 151700,
+        "stock": 25,
+        "sold": 95,
+        "rating": 4.6,
+        "review_count": 41,
+        "condition": "Baru",
+        "is_featured": false,
+        "is_available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+          "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800"
+        ],
+        "variants": [
+          {
+            "name": "Color",
+            "options": [
+              "Brown",
+              "Black"
+            ]
+          }
+        ],
+        "tags": [
+          "tas",
+          "aksesoris",
+          "kulit"
+        ]
+      }
+    ],
+    "pagination": {
+      "current_page": 1,
+      "per_page": 10,
+      "total_items": 6,
+      "total_pages": 1
+    },
+    "promotions": [
+      {
+        "id": "PROMO-001",
+        "title": "Diskon Akhir Bulan",
+        "description": "Dapatkan diskon sampai 20% untuk produk pilihan.",
+        "banner": "https://images.unsplash.com/photo-1607083206968-13611e3d76db?w=1200",
+        "start_date": "2026-05-01",
+        "end_date": "2026-05-31"
+      }
+    ],
+    "payment_methods": [
+      "Transfer Bank",
+      "QRIS",
+      "Virtual Account",
+      "COD",
+      "E-Wallet"
+    ],
+    "shipping_methods": [
+      {
+        "name": "Reguler",
+        "estimate": "2-4 hari",
+        "cost": 15000
+      },
+      {
+        "name": "Express",
+        "estimate": "1-2 hari",
+        "cost": 30000
+      },
+      {
+        "name": "Same Day",
+        "estimate": "Hari yang sama",
+        "cost": 45000
+      }
+    ]
+  }
+}
