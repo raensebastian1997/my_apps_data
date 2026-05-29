@@ -310,7 +310,7 @@
         "is_available": true,
         "images": [
           "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=800",
-          "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800",
+          "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800"
         ],
         "variants": [
           {
@@ -318,7 +318,7 @@
             "options": ["Black", "White"]
           }
         ],
-        "tags": ["jaket", "parasut", "waterproof"],
+        "tags": ["jaket", "parasut", "waterproof"]
       }
 
     ],
